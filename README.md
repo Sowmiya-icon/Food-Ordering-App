@@ -51,11 +51,13 @@ To get this project up and running on your local machine:
    - Create a `.env` file in the root directory and add your configuration:
      ```env
      PORT=5000
-     MONGO_URI=your_mongodb_connection_string
-     JWT_SECRET=your_jwt_secret
+     server.port=8080
+spring.application.name=my-service
+spring.datasource.url=jdbc:oracle:thin:@//localhost:1521/ORCL
+
      ```
 
-4. **Run the App**:
+5. **Run the App**:
    - To start the server and client, run:
      ```bash
      npm run dev
@@ -63,7 +65,7 @@ To get this project up and running on your local machine:
 
    - This will start both the frontend and backend servers concurrently.
 
-5. **Access the Application**:
+6. **Access the Application**:
    - Open a web browser and navigate to `http://localhost:3000` to access the frontend.
 
 ## Usage
