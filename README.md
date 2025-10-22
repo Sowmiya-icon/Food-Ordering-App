@@ -23,9 +23,9 @@ This Food Ordering App allows users to browse, select, and order a variety of di
 
 ## Technologies Used
 
-- **Frontend**: HTML, CSS, JavaScript, React
-- **Backend**: Node.js, Express.js
-- **Database**: MongoDB
+- **Frontend**: HTML, CSS, JavaScript, Angular
+- **Backend**: Spring boot
+- **Database**: MySQL
 - **Authentication**: JSON Web Tokens (JWT)
 - **Payment Integration**: (e.g., Stripe, PayPal) *Optional, if included*
 - **Real-time Updates**: Socket.io (optional, if real-time updates are implemented)
